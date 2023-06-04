@@ -1,0 +1,21 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #1c2b35;
+  display: flex;
+  padding: 0 100px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header div a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: white;
+}
+
+.header div a:hover {
+  color: lightseagreen;
+}

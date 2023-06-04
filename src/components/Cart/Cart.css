@@ -1,0 +1,28 @@
+.cart {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #ff99003b;
+  background-color: 1.5rem;
+  position: sticky;
+  top: 7rem;
+}
+
+.btn-clear-cart {
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  background-color: #ff6347bd;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-clear-cart:hover {
+  background-color: #ff6347;
+  transition: 100ms ease-in-out;
+}
+
+.btn-clear-cart:focus {
+  outline: none;
+}
